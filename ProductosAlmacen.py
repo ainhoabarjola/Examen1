@@ -116,3 +116,5 @@ def optimizar_inventario():
     # Imprimir los resultados de la optimización
     print(f"La estantería con mayor valor acumulado es {estanteria_mayor_valor} con un valor total de ${mayor_valor:.2f}.")
     print(f"La estantería con menos productos es {estanteria_menor_productos} con un total de {menor_cantidad_productos} unidades.")
+
+    optimizar_inventario()
